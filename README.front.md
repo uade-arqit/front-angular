@@ -63,7 +63,7 @@
         -------------
         Desde Kubernetes
  
-            kubectl apply -f front-cloud.yml
+            kubectl apply -f front-cloud-service.yml
             kubectl run -it --rm --restart=Never alpine --image=alpine sh
                 / # apk add curl
                 / # curl -k http://my-cluster-service:4500
